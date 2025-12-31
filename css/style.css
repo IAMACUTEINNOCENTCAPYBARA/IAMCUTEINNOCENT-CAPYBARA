@@ -498,7 +498,26 @@ body:hover .cursor-outline {
         /* Mobile menu todo */
     }
 
-    .content-section {
-        padding: 6rem 5%;
+    /* Ad Container */
+    .ad-container {
+        width: 100%;
+        height: 250px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px dashed var(--accent-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0;
+        transition: all 0.3s ease;
     }
-}
+
+    .ad-container:hover {
+        background: rgba(212, 175, 55, 0.1);
+    }
+
+    .ad-placeholder {
+        text-align: center;
+        font-family: var(--font-serif);
+        font-size: 1.5rem;
+        color: var(--accent-color);
+    }

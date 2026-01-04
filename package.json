@@ -1,0 +1,7 @@
+{
+  "name": "james-bio",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building site...' && exit 0"
+  }
+}
